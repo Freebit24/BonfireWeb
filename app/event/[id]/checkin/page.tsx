@@ -1,14 +1,14 @@
 import CheckInClient from './checkin-client';
-import { supabase } from '@/utils/supabase';
 
-interface PageProps {
+export default async function CheckInPageWrapper({
+  params,
+}: {
   params: { id: string };
-}
-
-// ✅ Must be async if using generateStaticParams
-export default async function CheckInPageWrapper({ params }: PageProps) {
+}) {
   return <CheckInClient eventId={params.id} />;
 }
+
+import { supabase } from '@/utils/supabase';
 
 export async function generateStaticParams() {
   const { data, error } = await supabase.from('events').select('id');
