@@ -19,14 +19,14 @@ That's when Bonfire was born — a cozy, minimalist app to spark real human conn
 
 - How to integrate Supabase for real-time backend operations (auth, events, RSVP)
 - How to use Google Maps API for interactive location-based event discovery
-- How to design and build cross-platform UI with Next js + supabase
+- How to design and build cross-platform UI with Next js + App router
 - Optimizing real-time UI updates and working with location data efficiently
 
 ## 🛠️ How We Built It
 
 ### Frontend:
 
-- Built using Next js with supabase
+- Built using Next js with App router
 - Screens include: Event feed, create event, map view, user RSVP tracking
 
 ### Backend:
