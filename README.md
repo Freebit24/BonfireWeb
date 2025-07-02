@@ -59,10 +59,6 @@ That's when Bonfire was born — a cozy, minimalist app to spark real human conn
 
 ## 🔥 Try it Out
 
-- [GitHub Repository](https://github.com/OjAgrawal/Bonfire-Project/)
-- Video Demo
-- Live Preview
-
 Bonfire — Your vibe. Your tribe. Your time.
 
 ## How to test locally:
